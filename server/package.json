@@ -4,7 +4,7 @@
   "description": "Backend for sosmed PPLG 2 PI School",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "npx nodemon server.js"
   },
   "keywords": [
     "websocket",
@@ -22,6 +22,7 @@
     "mysql2": "^3.14.0",
     "nodemon": "^3.1.9",
     "sequelize": "^6.37.7",
-    "sequelize-cli": "^6.6.2"
+    "sequelize-cli": "^6.6.2",
+    "ws": "^8.18.1"
   }
 }
