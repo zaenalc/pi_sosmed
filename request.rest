@@ -1,0 +1,28 @@
+GET http://127.0.0.1:3000/student/{3}
+###
+
+POST http://127.0.0.1:3000/student
+Content-Type: application/json
+
+{
+    "firstName":"Rasyaqwerty",
+    "lastName":"Bayuwertgyh",
+    "classes":"X",
+    "major_id": 1,
+    "gender": "M"
+}
+###
+
+PUT http://127.0.0.1:3000/student/1
+Content-Type: application/json
+
+{
+    "firstName":"Raspratamayaupdate 1",
+    "lastName":"tes update 1",
+    "classes":"XII",
+    "major_id": 1,
+    "gender": "M"
+}
+
+###
+DELETE http://127.0.0.1:3000/student/2
