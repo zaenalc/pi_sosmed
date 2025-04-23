@@ -1,12 +1,12 @@
-GET http://127.0.0.1:3000/student/{3}
+GET http://127.0.0.1:3000/student/1
 ###
 
 POST http://127.0.0.1:3000/student
 Content-Type: application/json
 
 {
-    "firstName":"Rasyaqwerty",
-    "lastName":"Bayuwertgyh",
+    "firstName":"Rafliqwerty",
+    "lastName":"Azharwertgyh",
     "classes":"X",
     "major_id": 1,
     "gender": "M"
