@@ -10,7 +10,7 @@ module.exports = (sequelize, DataTypes) => {
       // });
       // user.hasMany(models.teacher, {
       //     foreignKey: 'user_id',
-      //     as: 'teachers'
+      //     as: 'teachers'ya
       // });
     }
   }
